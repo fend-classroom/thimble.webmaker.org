@@ -10,13 +10,6 @@
     <link rel="stylesheet" href="/homepage/stylesheets/style.css">
     <title>Thimble by Mozilla - An online code editor for learners &amp; educators.</title>
 
-    {% if GA_ACCOUNT %}
-    <script id="google-analytics-js" src="/homepage/scripts/google-analytics.js"
-            data-ga-account="{{ GA_ACCOUNT }}"
-            data-ga-domain="{{ GA_DOMAIN }}"
-            async>
-    </script>
-    {% endif %}
   </head>
 
   <body>
@@ -58,90 +51,7 @@
       </div>
     </section>
 
-    <section class="remix-projects">
-      <div class="content-wrapper">
-          <h2 class="projects-heading">Make your own version of these popular projects...</h2>
-
-          <div class="remixable-projects">
-
-            <!-- Keep Calm› Project -->
-            <div class="project keep-calm">
-              <h2 class="title">Keep Calm Poster</h2>
-              <div class="thumbnail">
-                <a href="{{ keepCalmRemixUrl }}" title="Remix the Keep Calm Poster project" class="image"></a>
-              </div>
-              <p class="description">
-                Change the design of this poster to make it your own.
-              </p>
-              <a title="Remix the Keep Calm Poster project" href="{{ keepCalmRemixUrl }}" class="remix-button">Remix this Project</a>
-              <div class="or-wrapper">
-                <hr />
-                <div class="or">or</div>
-              </div>
-              <div class="teach">
-                <h3>Use it to teach</h3>
-                <ul>
-                  <li>How to design a poster</li>
-                  <li>Editing HTML content</li>
-                  <li>Editing CSS styles</li>
-                </ul>
-                <a href="{{ keepCalmPublishedUrl }}" title="Read the Keep Calm teaching kit" class="teaching-kit">Keep Calm Teaching Kit</a>
-              </div>
-            </div>
-
-            <!-- Movie Poster Project -->
-            <div class="project postcard">
-              <h2 class="title">Back-to-School Postcard</h2>
-              <div class="thumbnail">
-                <a href="{{ backToSchoolRemixUrl }}" title="Remix the Back-to-School Postcard project" class="image"></a>
-              </div>
-              <p class="description">
-                Add your own content to this interactive postcard.
-              </p>
-              <a href="{{ backToSchoolRemixUrl }}" title="Remix the Back-to-School Poster project" class="remix-button">Remix this Project</a>
-              <div class="or-wrapper">
-                <hr />
-                <div class="or">or</div>
-              </div>
-              <div class="teach">
-                <h3>Use it to teach</h3>
-                <ul>
-                  <li>Editing HTML content</li>
-                  <li>CSS colors</li>
-                  <li>Creating an interactive element<br/> with JavaScript</li>
-                </ul>
-                <a href="{{ backToSchoolPublishedUrl }}" title="Read the Back-to-School Postcard teaching kit" class="teaching-kit">Postcard Teaching Kit</a>
-              </div>
-            </div>
-
-            <!-- Comic Strip Project -->
-            <div class="project comic-strip">
-              <h2 class="title">Current Events Comic</h2>
-              <div class="thumbnail">
-                <a href="{{ comicStripRemixUrl }}" title="Remix the Current Events Comic Strip project" class="image"></a>
-              </div>
-              <p class="description">
-                Create your very own version of this comic strip.
-              </p>
-              <a href="{{ comicStripRemixUrl }}" title="Remix the Comic Strip project"  class="remix-button">Remix this Project</a>
-              <div class="or-wrapper">
-                <hr />
-                <div class="or">or</div>
-              </div>
-              <div class="teach">
-                <h3>Use it to teach</h3>
-                <ul>
-                  <li>Editing HTML content</li>
-                  <li>Finding Creative Commons-licensed images</li>
-                  <li>CSS colors</li>
-                </ul>
-                <a href="{{ comicStripPublishedUrl }}" title="Read the Comic Strip project teaching kit" class="teaching-kit">Comic Strip Teaching Kit</a>
-              </div>
-            </div>
-
-          </div>
-      </div>
-    </section>
+    
 
     <footer>
       <div class="content-wrapper">
